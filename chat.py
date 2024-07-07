@@ -33,23 +33,23 @@ def download_corpora():
 
 download_corpora()
 
-# 1. Load API Key from .env
+# Load API Key from .env
 load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
 
-# 2. Set Up Google Gemini
+# Set Up Google Gemini
 llm = ChatGoogleGenerativeAI(model="gemini-pro", api_key=api_key)
 
-# 3. Set up Text-to-Speech (TTS)
+# Set up Text-to-Speech (TTS)
 engine = pyttsx3.init()
 voices = engine.getProperty("voices")
 engine.setProperty("voice", voices[0].id)  # Use the default voice
 
-# 4. Set up Speech Recognition
+# Set up Speech Recognition
 r = sr.Recognizer()
 mic = sr.Microphone()
 
-# 5. Conversation Functions
+# Conversation Functions
 conversation_history = []
 
 
