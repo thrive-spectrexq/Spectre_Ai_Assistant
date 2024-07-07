@@ -1,0 +1,8 @@
+pyttsx3
+pyaudio
+speech_recognition
+python-dotenv
+langchain_google_genai
+textblob
+streamlit
+langchain_community
