@@ -5,24 +5,24 @@ import speech_recognition as sr
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-# 1. Load API Key from .env
+# Load API Key from .env
 load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
 
-# 2. Set Up Google Gemini
+# Set Up Google Gemini
 llm = ChatGoogleGenerativeAI(model="gemini-pro", api_key=api_key)
 
-# 3. Set up Text-to-Speech (TTS)
+# Set up Text-to-Speech (TTS)
 engine = pyttsx3.init()
 voices = engine.getProperty("voices")
 engine.setProperty("voice", voices[0].id)  # Use the default voice
 
-# 4. Set up Speech Recognition
+# Set up Speech Recognition
 r = sr.Recognizer()
 mic = sr.Microphone()
 
 
-# 5. Conversation Loop
+# Conversation Loop
 def speak(text):
     """Speak the given text."""
     engine.say(text)
@@ -45,7 +45,7 @@ def listen():
         return None
 
 
-# 6. Main Loop
+# Main Loop
 while True:
     print("Choose input method:")
     print("1. Type")
