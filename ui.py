@@ -130,7 +130,7 @@ def expressive_speak(text, emotion):
 
 
 # Streamlit UI
-st.title("Spectre's Assistant")
+st.title("Spectre Ai Assistant")
 
 # Welcome message
 if "welcome_message" not in st.session_state:
