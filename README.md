@@ -16,7 +16,7 @@ This repository contains two Python scripts that implement a voice-assisted conv
 
 Ensure you have the following installed:
 - Python 3.7 or higher
-- Virtual environment too
+- Virtual environment
 
 ### Installation
 
@@ -26,7 +26,7 @@ Ensure you have the following installed:
     cd Spectre_Ai_Assistant
     ```
 
-2. **Create and Activate a Virtual Environment (Optional):**
+2. **Create and Activate a Virtual Environment:**
     ```sh
     python3 -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
