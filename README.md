@@ -15,7 +15,7 @@ This repository contains two Python scripts that implement a voice-assisted conv
 ### Prerequisites
 
 Ensure you have the following installed:
-- Python 3.7 or higher
+- Python 3.9 or higher
 - Virtual environment
 
 ### Installation
