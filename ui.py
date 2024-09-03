@@ -1,4 +1,5 @@
 import os
+import re
 import pyttsx3
 import pyaudio
 import speech_recognition as sr
@@ -58,6 +59,11 @@ if "conversation_history" not in st.session_state:
 
 def speak(text):
     """Speak the given text."""
+    # Remove asterisks used for bold/italic formatting
+    text = re.sub(r"[*_]", "", text)
+    # Remove any other unnecessary characters if needed
+    text = text.replace("\n", " ").strip()
+
     engine.say(text)
     engine.runAndWait()
 
