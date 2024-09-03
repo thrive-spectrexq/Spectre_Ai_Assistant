@@ -1,6 +1,6 @@
 # Spectre Ai Assistant
 
-This repository contains two Python scripts that implement a voice-assisted conversational AI: `chat.py` and `ui.py`. Both scripts leverage various libraries and Google's Gemini Pro 1.5 to create an engaging and interactive user experience, with `ui.py` extending the functionality to a web interface using Streamlit.
+The use of two Python scripts that implement a voice-assisted conversational AI: `chat.py` and `ui.py`. Both scripts leverage various libraries and Google's Gemini Pro 1.5 to create an engaging and interactive user experience, with `ui.py` extending the functionality to a web interface using Streamlit.
 
 ## Features
 
