@@ -94,11 +94,5 @@ Contributions are welcome! Please submit a pull request or open an issue to disc
 
 These scripts are licensed under the [MIT License](LICENSE).
 
-## Acknowledgements
-
-- [Streamlit](https://www.streamlit.io/) for the web-based interface.
-- [LangChain](https://langchain.com/) for integration with Google Gemini.
-- [Google Gemini](https://deepmind.google/technologies/gemini/pro/) for integration with Google Gemini API
-
 ---
 
