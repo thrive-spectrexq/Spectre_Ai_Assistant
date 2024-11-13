@@ -30,7 +30,7 @@ The use of two Python scripts that implement a voice-assisted conversational AI:
     ```
 
 5. **Download NLTK Data:**
-    The required NLTK data will be downloaded automatically when the scripts are run.
+   - The required NLTK data will be downloaded automatically when the scripts are run.
 
 ### Running the Scripts
 
