@@ -1,6 +1,6 @@
 pyttsx3
 pyaudio
-speech_recognition
+SpeechRecognition
 python-dotenv
 langchain_google_genai
 textblob
