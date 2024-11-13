@@ -4,12 +4,6 @@ The use of two Python scripts that implement a voice-assisted conversational AI:
 
 ## Setup Instructions
 
-### Prerequisites
-
-Ensure you have the following installed:
-- Python 3.9 or higher
-- Virtual environment
-
 ### Installation
 
 1. **Clone the Repository:**
