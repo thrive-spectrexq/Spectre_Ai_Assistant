@@ -8,8 +8,8 @@ The use of two Python scripts that implement a voice-assisted conversational AI:
 
 1. **Clone the Repository:**
     ```sh
-    git clone https://github.com/thrive_spectrexq/Spectre_Ai_Assistant.git
-    cd Spectre_Ai_Assistant
+    git clone https://github.com/thrive_spectrexq/spectre_ai.git
+    cd spectre_ai
     ```
 
 2. **Create and Activate a Virtual Environment:**
